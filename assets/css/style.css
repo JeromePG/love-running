@@ -92,3 +92,44 @@ h1, h2, h3, #logo{
     width: 300px;
     height: 200px;
 }
+
+/* ethos area */
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#center-about {
+    width: 33%;
+    background: rgb(181, 204, 160);
+    margin: 0 auto;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+hr {
+    border-top: solid 1px silver;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.left-about-header {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-header {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
