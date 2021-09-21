@@ -19,7 +19,7 @@ h1, h2, h3, #logo{
 #logo {
     font-size: 350%;
     line-height: 75px;
-    padding-left: 10px;
+    padding-left: 20px;
     color: #22793c;
 }
 
@@ -52,10 +52,43 @@ h1, h2, h3, #logo{
     height: 600px;
     width: 100%b;
     background: url(../images/hero-image.webp) no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forewards;
 }
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+/* hero image zoom */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* cover text */
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    background-color: rgba(58, 175, 74, 0.7);
+    font-size: 150%;
+    text-transform: uppercase;
+    padding: 30px 0 0 10px;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
 }
