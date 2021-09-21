@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: open sans, sans-serif;
+}
+
+/* fonts for headings and logo */
+h1, h2, h3, #logo{
+    font-family: indie flower, sans-serif;
+}
+
+#logo {
+    font-size: 350%;
+}
