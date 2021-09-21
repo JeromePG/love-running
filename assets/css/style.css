@@ -12,8 +12,36 @@ body {
 /* fonts for headings and logo */
 h1, h2, h3, #logo{
     font-family: indie flower, sans-serif;
+    letter-spacing: 4px;
+
 }
 
 #logo {
     font-size: 350%;
+    line-height: 75px;
+    padding-left: 10px;
+    color: #22793c;
+}
+
+/* menu items */
+#menu {
+    line-height: 75px;
+    float: right;
+    font-size: 110%;
+    color: #797979
+}
+
+#menu li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #22793c;
+    font-weight: 700;
 }
