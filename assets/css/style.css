@@ -45,3 +45,17 @@ h1, h2, h3, #logo{
     color: #22793c;
     font-weight: 700;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%b;
+    background: url(../images/hero-image.webp) no-repeat center center;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
