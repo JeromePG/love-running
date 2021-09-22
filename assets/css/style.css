@@ -29,7 +29,6 @@ h1, h2, #logo{
     line-height: 75px;
     float: right;
     font-size: 110%;
-    color: #797979
 }
 
 #menu li {
@@ -40,11 +39,17 @@ h1, h2, #logo{
 
 #menu a {
     text-decoration: none;
+    color: #797979;
 }
 
 #menu a:hover {
     color: #22793c;
     font-weight: 700;
+}
+
+#menu a.active {
+    color: #22793c;
+    border-bottom: #22793c 1px solid;
 }
 
 /* hero image */
